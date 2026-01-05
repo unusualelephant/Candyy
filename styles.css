@@ -13,14 +13,14 @@
     clear: both;
 }
 body{
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     max-width: 1300px;
     border: 1px solid #000000;
     margin: auto;
 }
 
 .title{
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     font-size: 80px;
     text-align: center;
 }
