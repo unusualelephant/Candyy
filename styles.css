@@ -28,8 +28,13 @@ body{
     display:flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: 1000px;
+    justify-content: center;
 }
+figcaption{
+    font-size: 30px;
+    text-align: center;
+}
+
 nav{
     position: sticky;
     top: 0;
@@ -84,8 +89,11 @@ h4{
     padding: 8px 0;
 }
 .image{
-    height: 400px;
+    height: 350px;
+    width: 350px;
     border: #96dae1 3px solid;
+    object-fit: cover;
+    object-position: center;
 }
 summary{
     font-weight: bold;
