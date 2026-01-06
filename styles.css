@@ -33,6 +33,8 @@ body{
 figcaption{
     font-size: 30px;
     text-align: center;
+    text-wrap: wrap;
+    max-width: 350px;
 }
 
 nav{
@@ -55,12 +57,21 @@ a{
     text-decoration: none;
     color: #3b6b27; 
 }
+a:hover{
+    color:#96dae1;
+    background-color:rgb(203, 249, 255); 
+}
 .logo{
     height: 200px;
 }
 header{
     align-items: center;
     border-bottom: 1px solid #000000;
+}
+footer{
+    background-color:#96dae1;
+    padding: 15px;
+    border: 1px solid black;
 }
 p{
     line-height: 1.5;
